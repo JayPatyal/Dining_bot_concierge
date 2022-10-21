@@ -16,8 +16,8 @@ from time import sleep
 
 
 client = boto3.resource(service_name='dynamodb',
-                          aws_access_key_id="AKIAQAQHFTTDBY6LIB7L",
-                          aws_secret_access_key="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",
+                          aws_access_key_id="",
+                          aws_secret_access_key="",
                           region_name="us-east-1",
                          )
 table = client.Table('yelp-restaurants')
